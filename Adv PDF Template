@@ -1,0 +1,98 @@
+<pdf>
+  <head>
+    <style type="text/css">
+      body {
+        font-family: Oracle Sans;
+        font-size: 10pt;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        table-layout: fixed;
+      }
+      td {
+        padding: 6px;
+        border: 0.7pt solid #000;
+        vertical-align: top;
+        word-wrap: break-word;
+      }
+      .col-1 { width: 25%; }
+      .col-2 { width: 25%; }
+      .col-3 { width: 25%; }
+      .col-4 { width: 25%; }
+      .bold {
+        font-weight: bold;
+      }
+      .title {
+        text-align: center;
+        font-size: 12pt;
+        font-weight: bold;
+        border: none;
+        padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Title centered using the table with full width and inline style -->
+    <table style="width: 100%; text-align: center; border: none;">
+      <tr>
+        <td colspan="4" class="title">
+          Reporting Disclosure ID: 301-2
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td class="bold col-1">Reporting Standard Section</td>
+        <td class="col-2">GRI 301: Materials 2016</td>
+        <td class="bold col-3">Measurement Type</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Requirement ID</td>
+        <td class="col-2">301-3i</td>
+        <td class="bold col-3">Total Quantity</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Requirement Name</td>
+        <td class="col-2">Total Recycled materials used in the reporting year</td>
+        <td class="bold col-3">Units</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Requirement Description</td>
+        <td class="col-2">Total Recycled materials used in the reporting year</td>
+        <td class="bold col-3">Recycled Input</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Material Classification</td>
+        <td class="col-2"></td>
+        <td class="bold col-3">Percentage of Recycled Input</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Material Type</td>
+        <td class="col-2"></td>
+        <td class="bold col-3">Reclaimed Input</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Renewable</td>
+        <td class="col-2"></td>
+        <td class="bold col-3">Percentage of Reclaimed Input</td>
+        <td class="col-4"></td>
+      </tr>
+      <tr>
+        <td class="bold col-1">Material Source</td>
+        <td class="col-2"></td>
+        <td class="bold col-3">Total Material Used by Weight/Volume</td>
+        <td class="col-4"></td>
+      </tr>
+    </table>
+  </body>
+</pdf>
